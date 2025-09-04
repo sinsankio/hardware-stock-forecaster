@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Forecasting using ARIMA Models</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --light-bg: #ecf0f1;
+            --dark-text: #2c3e50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--dark-text);
+        }
+
+        .main-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .form-section {
+            padding: 2rem;
+            background: white;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .form-control:focus {
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--secondary-color), #2980b9);
+            border: none;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+            border: none;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .product-item {
+            background: var(--light-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .product-item:has(input:checked) {
+            background: rgba(52, 152, 219, 0.1);
+            border-color: var(--secondary-color);
+            transform: scale(1.02);
+        }
+
+        .product-item label {
+            font-weight: 600;
+            color: var(--primary-color);
+            cursor: pointer;
+            display: block;
+            margin: 0;
+        }
+
+        .results-section {
+            padding: 2rem;
+            background: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .stats-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .stats-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        .stats-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .ranking-card {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .ranking-card.profit {
+            background: linear-gradient(135deg, var(--success-color), #229954);
+        }
+
+        .ranking-card.loss {
+            background: linear-gradient(135deg, var(--danger-color), #c0392b);
+        }
+
+        .table-responsive {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .table th {
+            background: var(--primary-color);
+            color: white;
+            font-weight: 600;
+            border: none;
+            padding: 1rem 0.75rem;
+        }
+
+        .table td {
+            padding: 1rem 0.75rem;
+            vertical-align: middle;
+        }
+
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .footer p {
+            margin: 0.5rem 0;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, var(--success-color), #229954);
+            border: none;
+            padding: 1rem 2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            color: white;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+            color: white;
+            text-decoration: none;
+        }
+
+        .error-message {
+            color: var(--danger-color);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .alert {
+            border-radius: 8px;
+            border: none;
+            margin-bottom: 1rem;
+        }
+
+        .alert-success {
+            background: linear-gradient(135deg, rgba(39, 174, 96, 0.1), rgba(34, 153, 84, 0.05));
+            border-left: 4px solid var(--success-color);
+        }
+
+        .alert-danger {
+            background: linear-gradient(135deg, rgba(231, 76, 60, 0.1), rgba(192, 57, 43, 0.05));
+            border-left: 4px solid var(--danger-color);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .stats-value {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="main-container">
+            <!-- Header Section -->
+            <div class="header">
+                <h1><i class="fas fa-chart-line me-3"></i>Stock Price Forecasting using ARIMA Models</h1>
+                <p>Welcome to our advanced stock price forecasting platform. This application uses sophisticated ARIMA (AutoRegressive Integrated Moving Average) models to predict future stock prices based on historical data analysis. Select your desired date range and products to generate comprehensive forecasting reports with detailed statistical analysis.</p>
+            </div>
+
+            <!-- Form Section -->
+            <div class="form-section">
+                <h2 class="section-title"><i class="fas fa-cog me-2"></i>Forecasting Configuration</h2>
+                
+                <form method="POST" action="{{ url_for('forecast') }}" id="forecastForm">
+                    <div class="row">
+                        <!-- Date Range Selection -->
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label for="startDate" class="form-label fw-bold">
+                                    <i class="fas fa-calendar-alt me-2"></i>Start Date
+                                </label>
+                                <input type="date" class="form-control" id="startDate" name="startDate" 
+                                       min="2025-06-18" value="2025-06-18" required>
+                                <div class="error-message" id="startDateError"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <label for="endDate" class="form-label fw-bold">
+                                    <i class="fas fa-calendar-alt me-2"></i>End Date
+                                </label>
+                                <input type="date" class="form-control" id="endDate" name="endDate" 
+                                       min="2025-06-19" required>
+                                <div class="error-message" id="endDateError"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Selection -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">
+                            <i class="fas fa-box me-2"></i>Select Products for Forecasting
+                        </label>
+                        <div class="product-grid" id="productGrid">
+                            {% set available_products = ['P001', 'P002', 'P003', 'P004', 'P007', 'P012'] %}
+                            {% for product in available_products %}
+                            <div class="product-item">
+                                <input type="checkbox" class="form-check-input me-2" 
+                                       id="{{ product }}" name="products[]" value="{{ product }}" checked>
+                                <label for="{{ product }}">{{ product }}</label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="error-message" id="productError"></div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex gap-3 justify-content-center">
+                        <button type="button" class="btn btn-secondary" id="resetBtn">
+                            <i class="fas fa-undo me-2"></i>Reset
+                        </button>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <i class="fas fa-chart-area me-2"></i>Generate Forecast
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Results Section -->
+            {% if results %}
+            <div class="results-section" id="resultsSection">
+                <h2 class="section-title"><i class="fas fa-chart-bar me-2"></i>Forecasting Results</h2>
+                
+                <!-- Success Alert -->
+                <div class="alert alert-success">
+                    <i class="fas fa-check-circle me-2"></i>
+                    Forecast analysis completed successfully! The results below show detailed predictions and statistical analysis for the selected products and date range.
+                </div>
+                
+                <!-- Individual Product Analysis Table -->
+                <div class="mb-5">
+                    <h4 class="mb-3"><i class="fas fa-table me-2"></i>Individual Product Analysis</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead>
+                                <tr>
+                                    <th>Product ID</th>
+                                    <th>End Selling Price</th>
+                                    <th>End Cost Price</th>
+                                    <th>Average Selling Price</th>
+                                    <th>Average Cost Price</th>
+                                    <th>Total Sales</th>
+                                    <th>Total Costs</th>
+                                    <th>Profit Percentage</th>
+                                    <th>Sales Excluding Lost</th>
+                                    <th>Profit Excluding Lost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for product_id, data in results.individual_products.items() %}
+                                <tr>
+                                    <td><strong>{{ product_id }}</strong></td>
+                                    <td>LKR {{ "%.2f"|format(data.end_selling_price) }}</td>
+                                    <td>LKR {{ "%.2f"|format(data.end_cost_price) }}</td>
+                                    <td>LKR {{ "%.2f"|format(data.avg_selling_price) }}</td>
+                                    <td>LKR {{ "%.2f"|format(data.avg_cost_price) }}</td>
+                                    <td>LKR {{ "{:,.2f}".format(data.total_sales) }}</td>
+                                    <td>LKR {{ "{:,.2f}".format(data.total_costs) }}</td>
+                                    <td>
+                                        {% if data.profit_percentage >= 0 %}
+                                            <span class="text-success">{{ "%.2f"|format(data.profit_percentage) }}%</span>
+                                        {% else %}
+                                            <span class="text-danger">{{ "%.2f"|format(data.profit_percentage) }}%</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>LKR {{ "{:,.2f}".format(data.sales_excluding_lost) }}</td>
+                                    <td>
+                                        {% if data.profit_excluding_lost >= 0 %}
+                                            <span class="text-success">{{ "%.2f"|format(data.profit_excluding_lost) }}%</span>
+                                        {% else %}
+                                            <span class="text-danger">{{ "%.2f"|format(data.profit_excluding_lost) }}%</span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Cumulative Analysis -->
+                <div class="mb-5">
+                    <h4 class="mb-3"><i class="fas fa-calculator me-2"></i>Cumulative Analysis</h4>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-card text-center">
+                                <div class="stats-value">LKR {{ "{:,.0f}".format(results.cumulative.total_sales) }}</div>
+                                <div class="stats-label">Total Sales</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-card text-center">
+                                <div class="stats-value">LKR {{ "{:,.0f}".format(results.cumulative.total_sales_excluding_lost) }}</div>
+                                <div class="stats-label">Total Sales (Excluding Lost)</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-card text-center">
+                                <div class="stats-value">LKR {{ "{:,.0f}".format(results.cumulative.total_costs) }}</div>
+                                <div class="stats-label">Total Costs</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-card text-center">
+                                <div class="stats-value">
+                                    {% if results.cumulative.total_profit >= 0 %}
+                                        <span class="text-success">{{ "%.2f"|format(results.cumulative.total_profit) }}%</span>
+                                    {% else %}
+                                        <span class="text-danger">{{ "%.2f"|format(results.cumulative.total_profit) }}%</span>
+                                    {% endif %}
+                                </div>
+                                <div class="stats-label">Total Profit Percentage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Rankings -->
+                <div class="mb-5">
+                    <h4 class="mb-3"><i class="fas fa-trophy me-2"></i>Product Rankings</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="ranking-card">
+                                <h5><i class="fas fa-star me-2"></i>Highest Selling Product</h5>
+                                <h3>{{ results.rankings.highest_selling }}</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ranking-card profit">
+                                <h5><i class="fas fa-arrow-up me-2"></i>Most Profitable Product</h5>
+                                <h3>{{ results.rankings.highest_profit }}</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ranking-card loss">
+                                <h5><i class="fas fa-arrow-down me-2"></i>Highest Loss Product</h5>
+                                <h3>{{ results.rankings.highest_loss }}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Download Report -->
+                <div class="text-center">
+                    <a href="{{ url_for('download_report') }}" class="download-btn">
+                        <i class="fas fa-download me-2"></i>Download Forecasting Report
+                    </a>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Footer -->
+            <div class="footer">
+                <p><i class="fas fa-copyright me-2"></i>All rights reserved by - ARIMA Stock Price Forecaster (2025)</p>
+                <p><i class="fas fa-heart me-2"></i>Made with love by Python</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Initialize application
+        document.addEventListener('DOMContentLoaded', function() {
+            setupEventListeners();
+            setDefaultDates();
+            validateForm();
+        });
+
+        function setDefaultDates() {
+            const today = new Date();
+            const nextWeek = new Date(today);
+            nextWeek.setDate(today.getDate() + 7);
+            
+            // Set start date to a valid default (2025-06-18 or today if later)
+            const minDate = new Date('2025-06-18');
+            const startDate = today > minDate ? today : minDate;
+            
+            // Only set default end date if not already set (to avoid overriding server values)
+            const endDateInput = document.getElementById('endDate');
+            if (!endDateInput.value) {
+                endDateInput.valueAsDate = nextWeek;
+            }
+        }
+
+        function setupEventListeners() {
+            // Form validation listeners
+            document.getElementById('startDate').addEventListener('change', validateForm);
+            document.getElementById('endDate').addEventListener('change', validateForm);
+            
+            // Product checkbox listeners
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', validateForm);
+            });
+            
+            // Reset button
+            document.getElementById('resetBtn').addEventListener('click', resetForm);
+            
+            // Form submit with loading state
+            document.getElementById('forecastForm').addEventListener('submit', function(e) {
+                if (!validateForm()) {
+                    e.preventDefault();
+                    return;
+                }
+                
+                const submitBtn = document.getElementById('submitBtn');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Generating Forecast...';
+                submitBtn.disabled = true;
+                
+                // Re-enable button after a delay in case of errors
+                setTimeout(() => {
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }, 30000);
+            });
+        }
+
+        function validateForm() {
+            let isValid = true;
+            
+            // Clear previous errors
+            document.querySelectorAll('.error-message').forEach(error => error.textContent = '');
+            
+            // Validate dates
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            
+            if (!startDate) {
+                document.getElementById('startDateError').textContent = 'Start date is required';
+                isValid = false;
+            }
+            
+            if (!endDate) {
+                document.getElementById('endDateError').textContent = 'End date is required';
+                isValid = false;
+            }
+            
+            if (startDate && endDate && new Date(startDate) >= new Date(endDate)) {
+                document.getElementById('endDateError').textContent = 'End date must be after start date';
+                isValid = false;
+            }
+            
+            if (startDate && new Date(startDate) < new Date('2025-06-18')) {
+                document.getElementById('startDateError').textContent = 'Start date cannot be before 2025-06-18';
+                isValid = false;
+            }
+            
+            // Validate products
+            const checkedProducts = document.querySelectorAll('input[type="checkbox"]:checked');
+            if (checkedProducts.length === 0) {
+                document.getElementById('productError').textContent = 'At least one product must be selected';
+                isValid = false;
+            }
+            
+            // Enable/disable submit button
+            document.getElementById('submitBtn').disabled = !isValid;
+            
+            return isValid;
+        }
+
+        function resetForm() {
+            // Reset checkboxes to all checked
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
+            
+            // Reset dates to default
+            document.getElementById('startDate').value = '2025-06-18';
+            setDefaultDates();
+            
+            // Clear errors and revalidate
+            document.querySelectorAll('.error-message').forEach(error => error.textContent = '');
+            validateForm();
+        }
+
+        // Auto-scroll to results if they exist
+        {% if results %}
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                document.getElementById('resultsSection').scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 500);
+        });
+        {% endif %}
+    </script>
+</body>
+</html>

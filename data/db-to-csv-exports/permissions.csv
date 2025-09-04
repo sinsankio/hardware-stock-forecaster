@@ -1,0 +1,13 @@
+permission_id,permission_ref,permission,code,status
+1,,menu-dashboard,,1
+2,,menu-pos,,1
+3,,menu-catalog,,1
+4,,menu-products,,1
+5,,menu-categories,,1
+6,,menu-supplier,,1
+7,,menu-customer,,1
+8,,menu-sale,,1
+9,,menu-return,,1
+10,,menu-reports,,1
+11,,menu-settings,,1
+12,,menu-cashbook,,1

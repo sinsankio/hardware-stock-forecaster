@@ -1,0 +1,5 @@
+payment_type_id,name
+1,Cash
+2,Cheque
+3,Credit
+4,Others

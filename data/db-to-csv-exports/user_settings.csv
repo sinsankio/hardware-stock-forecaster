@@ -1,0 +1,4 @@
+user_setting,user_id,key,value,serialize,status
+1,1,pos_item_height,570px,0,1
+2,1,pos_category_product_count,75,0,1
+3,1,pos_screen_reverse,ltr,0,1

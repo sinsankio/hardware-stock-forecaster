@@ -1,0 +1,282 @@
+supplier_id,supplier_ref,supplier_name,address,contact_no,email,contact_person_name,contact_person_number,bf_balance,balance,status,created_at,created_user_id,updated_at,updated_user_id
+1,72da8c9a-3a82-11eb-8393-00e18c9a6c8e,Walk-in Supplier,Medawachchiya,0777777878,walkinsupplier@gmail.com,,,0.0,1788616.81,1,,,2025-03-07 04:35:39,
+2,7624efe4-8afc-11eb-939b-002590fd1374,Siyolta Lanka Distributors,"44/4,
+Lanarole Mw,
+Bomiriya Kaduwela.",0252224650,,[3/4 L handle RTN],,0.0,139002.75,1,2021-03-22 16:20:18,5.0,2025-03-08 09:46:28,5.0
+3,cec20a75-8ba4-11eb-939b-002590fd1374,KDI International (INGCO)RETURNCentrifugal Pump 1.0HP - INGCO,"100 1/1,
+Pamankada Road,
+Colombo 06.","0112500672, 07750427",Pamankada@hotmail.Com,[2871Broken Item],,0.0,497345.57,1,2021-03-23 12:25:21,5.0,2025-03-14 11:50:20,5.0
+4,9d5ae7fc-8ba5-11eb-939b-002590fd1374,Spectra Industries Lanka (PVT) ltd,"521/31,
+4th Cross Street,
+New Bus Stand,
+Anuradhapura.",0254549944,,,,0.0,0.0,0,2021-03-23 12:31:07,5.0,2023-04-05 19:17:27,5.0
+5,5e52cce3-afeb-11eb-9ec8-002590fd1374,Ranathunga Distributors,Polonnaruwa,0777683183,,,,0.0,0.0,0,2021-05-08 16:21:39,4.0,2023-03-13 22:39:59,5.0
+6,51907f50-b14a-11eb-9ec8-002590fd1374,Jayakirana PVT.Ltd,"397,New Kandy Road,, Delgoda",011-2402619,,0771095638,,0.0,0.0,1,2021-05-10 10:13:48,5.0,2024-02-20 05:46:34,5.0
+7,cc83e1d1-b3b4-11eb-9ec8-002590fd1374,K.J Electricals,"PolaBhuita,Polonnaruwa",077-7683183,,,,0.0,0.0,1,2021-05-13 12:00:58,5.0,2021-10-11 12:28:15,
+8,28fa95ea-b6f6-11eb-8815-002590fd1374,Kelani Cables PLC,"PO Box.14,Wewelduwa,Kelaniya",0777583689/011-29132,[369 Bulb RTN],,,0.0,516669.9872,1,2021-05-17 15:26:27,5.0,2025-03-17 11:47:22,5.0
+9,44747909-e13a-11eb-8322-002590fd1374,TNR Holdings Lanka (Pvt)Ltd,"No532/2A Suduwella,wennappuwa",0768480740/077335895,,,,0.0,-7.5,1,2021-07-10 10:19:31,5.0,2024-11-01 09:08:25,5.0
+10,1447a44f-e143-11eb-8322-002590fd1374,RMA Distributors (DIMO Bulb),Rambewa,0772147119,,,,0.0,134360.0,1,2021-07-10 11:22:36,5.0,2025-03-21 11:13:43,5.0
+11,50bc9517-e45b-11eb-8322-002590fd1374,Srikumaran Stores,"NO-1049, Thirunagar South, Kilinochchi.",0210000000,,,,0.0,0.0,0,2021-07-14 09:53:32,5.0,2023-02-17 16:28:59,5.0
+12,5e06982f-e495-11eb-8322-002590fd1374,Samadhi Hardware,"NO.358/C Temple road, Weboda North, Weboda",077-9051830,,,,0.0,0.0,1,2021-07-14 16:49:05,5.0,2023-07-01 05:16:41,
+13,1845c3c7-e865-11eb-8322-002590fd1374,Mahagedara Distributor (Kevilton Electrical Products),Sooryagaha Mawatha Anuradhapura,025-2053860,,"[Breaker,Bulb RTN]",,0.0,483769.91,1,2021-07-19 13:13:28,5.0,2025-03-22 11:59:22,5.0
+14,f50645fb-e940-11eb-8322-002590fd1374,BR & Dc Distributors - return 1307,"No 26 C,Anuradhapura Road,Padeniya.",071-7774780,,[Bird lock],,0.0,90753.036,1,2021-07-20 15:27:16,5.0,2025-02-22 11:03:13,5.0
+15,0417307a-f046-11eb-a9da-002590fd1374,SR Steel (Pvt) Ltd,Collombo,0112421373,,,,0.0,-2.9802322387695e-08,1,2021-07-29 13:51:44,4.0,2021-07-29 08:33:43,
+16,c6c6cb4a-f390-11eb-a9da-002590fd1374,Murex Lanka Marketing,Kandy,0777073024,,,,0.0,0.0,0,2021-08-02 18:24:20,5.0,2023-04-05 19:25:05,5.0
+17,2373a09f-f429-11eb-a9da-002590fd1374,ASIAN Distributors-ANURADAPURA,"NO-521/43D,
+Maithtripala Senanayaka Mw,
+Anuradhapura.",0774447538/071511106,0252225769,[RTN Sink],,0.0,105258.5,1,2021-08-03 12:34:58,5.0,2025-03-22 05:48:31,5.0
+18,b6ab5bff-f42e-11eb-a9da-002590fd1374,Douglas-Nissanka,Panchikawaththe Road .Collombo 10,0115608444,,[RTN835],,0.0,0.0,1,2021-08-03 13:14:52,5.0,2023-03-21 11:23:58,5.0
+19,3f706065-f433-11eb-a9da-002590fd1374,Kadurata Hardware,Medawachchiya,-,,,,0.0,0.0,1,2021-08-03 13:47:19,5.0,2025-02-07 09:46:09,5.0
+20,f9d64dac-fe75-11eb-bd28-002590fd1374,Provide Lanka Marketing Services,"no.633/4/15,nedungamuwa,gampaha
+0770122080/077737630",Ref :0770128751,,[RTN 2839 Bird lock],,0.0,446546.9148,1,2021-08-16 15:10:21,5.0,2025-03-20 12:06:15,5.0
+21,7bde0bb2-fe76-11eb-bd28-002590fd1374,City Hardware Medawachchiya,Medawachchiya,025-2245299,-,,,0.0,116249.94,1,2021-08-16 15:13:59,5.0,2025-03-20 07:55:54,5.0
+22,ecca5fea-fe7e-11eb-bd28-002590fd1374,Jayawardena Trading Company,"NO.110,MARKET SITE, ANURADHAPURA",0252237618/025224556,,,,0.0,594200.0,1,2021-08-16 16:14:25,5.0,2025-03-24 04:37:01,5.0
+23,073255fd-ff42-11eb-bd28-002590fd1374,Chint Energy (PVT) Ltd JGSenadeera,804 Stage 2 Apura,0760955362,,,,0.0,63318.0,1,2021-08-17 15:30:59,5.0,2025-02-28 12:04:46,5.0
+24,5aa0a403-0003-11ec-bd28-002590fd1374,RASIKA BRAS,COLOMBO,0775409343,,,,0.0,0.0,1,2021-08-18 14:34:50,5.0,2024-08-05 12:02:23,
+25,acddc603-000a-11ec-bd28-002590fd1374,keselwaththa,Keselwaththa panadura,0772547700,,[RTN-884],,0.0,0.0,1,2021-08-18 15:27:14,5.0,2025-02-19 16:50:34,5.0
+26,ea7885b7-1dcb-11ec-bd28-002590fd1374,R.N.R Agencies (PVT) LTD Rs14769 Aduwiya Uthui,"NO: 120, Galle Road, Henamulla, Panadura.",0382297377,,[RTN],,0.0,315676.78,1,2021-09-25 12:12:28,5.0,2025-03-04 10:21:37,5.0
+27,c7f0d0d7-2118-11ec-98ee-002590fd1374,Ransanda Nidan Wasthu,"NO; 52/2, Ullandupitiya,Werellagama,Kandy","077-5158489 , 076-94",,,,0.0,0.0,1,2021-09-29 17:01:24,5.0,2024-09-25 11:30:37,5.0
+28,82cd5cc7-21c5-11ec-bfb2-002590fd1374,Sujeewa Enterprises  (KRYPTON),NO64/05 Market Plase Anuradhapura,0717038678,,[RTN-2338},,0.0,57699.6594,1,2021-09-30 13:37:51,5.0,2025-03-10 09:36:16,5.0
+29,a2fc6ae5-2368-11ec-bfb2-002590fd1374,Diamond Holdings -Anwar,Nittabuwa Shakib Nittabuwa,0777360083,,,,0.0,0.0,0,2021-10-02 15:38:01,5.0,2024-11-18 09:06:42,5.0
+30,8eb899db-2421-11ec-bfb2-002590fd1374,Yasas Enterprises,Kaluthara,0718582369,,A.A.C Silos,,0.0,10000.0,1,2021-10-03 13:41:42,5.0,2025-03-19 11:14:10,5.0
+31,41539767-2a5b-11ec-bfb2-002590fd1374,Safe Distributors (ARPICO),"NO;51, Mihinthale Road, Kurundankulama, Anuradapuraya.",025-5677977,,,,0.0,316077.75,1,2021-10-11 11:49:37,5.0,2025-03-22 08:38:12,5.0
+32,1f836d2e-2db9-11ec-bfb2-002590fd1374,Sithumi Chemical,Polonnaruwa,0713007809,,,,0.0,0.0,1,2021-10-15 18:38:58,5.0,2021-10-15 13:12:23,
+33,ee9e7f44-2f1c-11ec-bfb2-002590fd1374,R.A. Electrical,"177/1 A, Nikalanda, Athulgama, Thalathuoya, Kandy",0777813226,,,,0.0,0.0,1,2021-10-17 13:05:54,5.0,2024-11-09 11:36:26,5.0
+34,fde1f8d8-2fde-11ec-bfb2-002590fd1374,Nippon Paint Lanka (PVT) LTD- 57301 price deduct,"NO-69 A, Buthagamuwa Road, Rajagiriya.",0774027248/011460040,,[RTN],,0.0,1530359.691,1,2021-10-18 12:15:01,5.0,2025-03-18 04:14:29,5.0
+35,99da5896-3578-11ec-9b1d-002590fd1374,S&S Distributors,"New Kandy Road, Anuradhapura.",0705354758,,,,0.0,0.0,0,2021-10-25 15:17:31,5.0,2023-04-05 19:29:31,5.0
+36,a6cb26c9-37d9-11ec-9b1d-002590fd1374,Steelco Lanka Trading (Pvt) Ltd,"Raththanapitiya,Boralesgamuwa",0112150309,,,,0.0,0.0,1,2021-10-28 15:57:11,5.0,2025-02-07 05:50:11,
+37,fc4437ec-3888-11ec-9b1d-002590fd1374,Rajapaksha Enterprises,"No;33, Abaya mawatha, Cross Road, Wijepura, Anuradhapura.",076-3144117 / 071-75,,,,0.0,61600.0,1,2021-10-29 12:52:15,5.0,2025-03-08 06:30:45,
+38,0437da6c-3af8-11ec-9b1d-002590fd1374,Dinithi Enterprises. (Lakshapana),"No-2748, Stage 111, Anuradhapura.",711964424/0254921398,,,,0.0,0.0,1,2021-11-01 15:12:00,5.0,2025-01-20 10:17:28,5.0
+39,e1603891-44fe-11ec-9fd6-002590fd1374,Everest Hardware Co. (PVT) LTD,"363/10/01, Malwatte, Kal-Eliya, Mirigama.",0094334950951,,[RTN 321silicon Gun],,0.0,91161.8,1,2021-11-14 09:26:35,5.0,2025-03-07 09:32:16,5.0
+40,319d0e9a-460a-11ec-9fd6-002590fd1374,Pasindu Suppliers & Distributors (PVT) LTD (JAT),"Jaffna Road, Isenbessagala, Medawachchiya.",071-9078047,,[W/B RTN],,0.0,93070.44,1,2021-11-15 17:20:03,5.0,2025-03-20 04:39:31,5.0
+41,48be5511-4797-11ec-9fd6-002590fd1374,Afshan Trading Co. (ALKATHENE),"Puththalam Road, Mahabulankulama, Anuradhapura.",0707878392/078818428,,,,0.0,4600.1,1,2021-11-17 16:42:28,5.0,2025-01-24 10:35:12,5.0
+42,66edc9b8-4a86-11ec-9fd6-002590fd1374,Shivani Trade Center (MACSON),"no-741/B10, Stage 11, Anuradhapura.",025-2053723,,,,0.0,0.11000000000058,1,2021-11-21 10:19:04,5.0,2025-01-07 09:04:22,5.0
+43,2df036d3-4c11-11ec-9fd6-002590fd1374,D&G Holding,"215/B, Athuruguriya Road, Malapalla, Kottawa, Pannipitiya.",0777119431/076336888,,,,0.0,0.0,1,2021-11-23 09:24:56,5.0,2022-12-14 03:48:19,5.0
+44,edcf4dc3-4dae-11ec-92e9-002590fd1374,NCH Marketing Enterprises PVT.Ltd,"NO-366, Main Street, Kanthale.",0772647514,,,,0.0,0.0,0,2021-11-25 10:47:05,5.0,2023-04-05 19:25:29,5.0
+45,7d04b4ef-4f3a-11ec-92e9-002590fd1374,Priyantha Distributors,"N0-190/5, Kandy Road, Kadawatha.",0772002941,,Mr. Menan,,0.0,70475.0,1,2021-11-27 09:58:32,5.0,2025-02-19 09:38:13,5.0
+46,8236bcd4-5eed-11ec-abdf-002590fd1374,New Dayan Distributors (MULTIBONE),"6th Mile Post, Ghnanikkulama, Kandy Road, Anuradhapura.",REF:0703435613,,0252057273,,0.0,0.0,1,2021-12-17 09:27:33,5.0,2023-11-10 06:37:49,5.0
+47,a73be78b-617b-11ec-abdf-002590fd1374,Mel-Bon Trading Company,"NO-36, Mugalan Rd, Colombo-06",0382248482,,,,0.0,0.0,1,2021-12-20 15:30:01,5.0,2023-03-09 11:54:28,5.0
+48,25125d46-618e-11ec-abdf-002590fd1374,Rubber Doormate Trade Center,"no-421, Dummaladeniya, Warakapola",0779850032,,,,0.0,0.0,0,2021-12-20 17:42:22,5.0,2023-08-02 21:03:17,5.0
+49,a52ae6b4-646b-11ec-abdf-002590fd1374,Keshara Minerals & Chemicals (PVT) LTD,"29/1, Madawala Rd, Malapana, Kengalla, Kandy",0777105708,,,,0.0,288361.84,1,2021-12-24 09:12:52,5.0,2025-02-25 05:55:36,
+50,3726a967-6477-11ec-abdf-002590fd1374,Chola Hardware (PVT) LTD(POLYCROME),"NO-125, Amman Kovil Rd, Kilinochchiya",0777351331,,,,0.0,289492.5,1,2021-12-24 10:35:42,5.0,2025-03-18 10:01:18,5.0
+51,0b26164b-6629-11ec-abdf-002590fd1374,Sun Cables (PVT) LTD,"NO-95/1, Darmapala Mawatha, Colombo 07.",0112303132,,0771908041,,0.0,259476.0,1,2021-12-26 14:21:05,5.0,2025-03-10 06:17:22,5.0
+52,2c2a059c-67a4-11ec-abdf-002590fd1374,Sarathchandra Chemicals PVT (LTD),"NO-133, Main Street, Embilipitiya.",0766303535,,,,0.0,0.0,1,2021-12-28 11:34:56,5.0,2022-06-08 12:25:49,
+53,440ec4fa-67ca-11ec-abdf-002590fd1374,Oleema Industries (PVT) LTD,"69/2, Rambutanwaththa Rd, Palahala, Dompe.",0777552810,,,,0.0,0.0,0,2021-12-28 16:07:37,5.0,2023-02-17 16:37:10,5.0
+54,a1cb04a4-67ca-11ec-abdf-002590fd1374,P Tech International Holdings,"105/2/20, Kinigama, Buthpitiya.",0741727406/071867286,,,,0.0,0.0,1,2021-12-28 16:10:14,5.0,2023-05-26 08:14:15,5.0
+55,56e2f51d-6ea1-11ec-abdf-002590fd1374,Gavutham Multi Iron Work,Jaffna,0212242972 / 0773566,,,,0.0,0.0,1,2022-01-06 09:02:02,5.0,2023-02-01 06:23:41,
+56,a85e912e-7076-11ec-abdf-002590fd1374,Faazil Enterprises,"404/A, Dool Mala, Thihariya Kalagedihena",0773054038,,,,0.0,0.0,1,2022-01-08 17:01:29,5.0,2024-10-16 07:42:46,5.0
+57,9b6e169a-7357-11ec-abdf-002590fd1374,Pathirana S Distributor - HASKY,"No: 117,21 Ela, Diwulwewa, Hidogama, Anuradapuraya",0773077278/077193850,info@hasky.lk,,,0.0,357521.0,1,2022-01-12 08:56:40,5.0,2025-03-08 07:43:32,5.0
+58,e7fb809b-78d7-11ec-b00d-002590fd1374,MBL Marketing,Colombo,0777677210,,,,0.0,0.0,1,2022-01-19 08:58:34,5.0,2024-11-08 04:30:02,
+59,08bbd8e4-79e5-11ec-9b8d-002590fd1374,(SLON)Shanmugam Stores (Seedevi),"No. 504, Kandy Road, Vavuniya",0772874471/ 02422285,,,,0.0,0.0,0,2022-01-20 17:05:13,5.0,2022-12-20 16:39:10,5.0
+60,e16c09f4-7c17-11ec-9b8d-002590fd1374,Gajindu Distributors,"No- 270, Old Moor Street, Colombo 12",077 2373939,,,,0.0,-15300.0,0,2022-01-23 12:14:09,5.0,2024-02-22 11:54:11,5.0
+61,8387c106-80c5-11ec-9b8d-002590fd1374,Dhanujaya & Bro' s,Kekirawa,077 1483948,,,,0.0,0.0,1,2022-01-29 11:06:58,5.0,2025-03-22 09:02:14,
+62,1db2a2ef-825e-11ec-9b8d-002590fd1374,Prime Base (PVT) LTD,"NO 266/1, Layards Broadway, Colombo",0773869752,,Mr.Asela 0773116343,,0.0,0.0,1,2022-01-31 11:51:48,5.0,2025-02-05 06:17:16,5.0
+63,db38a31c-84ef-11ec-9b8d-002590fd1374,Plywood House (Pvt.) Ltd,"No 203, Colombo Road, Kegalle",035-4932343,,,,0.0,58500.0,1,2022-02-03 18:20:00,5.0,2025-03-21 07:50:03,
+64,bd4ba70a-87d4-11ec-9b8d-002590fd1374,On Approval - Saraneru,Polonnaruwa,077-4299984,,Mr.Ajith -071-3331455,,0.0,0.0,1,2022-02-07 10:43:20,5.0,2022-11-03 16:00:09,5.0
+65,9347dada-8808-11ec-9b8d-002590fd1374,IBM Marketing,"Waliweriya, Gampaha",078-7522301/ 075-775,,,,0.0,0.0,1,2022-02-07 16:54:23,5.0,2023-08-09 09:18:50,
+66,374a1d68-8a3f-11ec-8514-002590fd1374,Dash,"No 178, Pubudupura, Anuradapura",-,,,,0.0,0.0,1,2022-02-10 12:31:03,5.0,2024-04-05 10:11:43,5.0
+67,df155269-8a6a-11ec-8514-002590fd1374,D&D Distributors,"No 85/3, 24 Mile Post, Bendiwewa, Polonnaruwa",076-7746398,,,,0.0,0.0,1,2022-02-10 17:43:32,5.0,2024-12-20 12:30:39,5.0
+68,baa73125-8a73-11ec-8514-002590fd1374,Global Vinyl (Floor Carpet),"208, Sea Street, Colombo 11",077-7447851,,Mr.Sanjeewa,,0.0,-3.6379788070917e-12,1,2022-02-10 18:46:56,5.0,2025-03-19 05:49:01,5.0
+69,a8ba4fe5-8d68-11ec-aece-002590fd1374,Lahiru Distributor-ANTON PVC,345/B.National House..Lake Road.Apura,0768713405,,Mr.Milinda,,0.0,17775.12,1,2022-02-14 13:05:18,5.0,2025-03-11 12:55:26,5.0
+70,d48a9fd1-8d95-11ec-aece-002590fd1374,Ramson Enterprises Lanka (Pvt)Ltd,No 6A Sri Wijewardana Rd...Nawala road..Nugegoda,info@ramson.lk,,077-9126380,,0.0,0.0,1,2022-02-14 18:28:38,5.0,2025-02-19 09:53:56,5.0
+71,2357847d-90a6-11ec-aece-002590fd1374,City Hardware-Vavuniya,Vavuniya,077-7488673,,,,0.0,584893.0,1,2022-02-18 16:02:49,5.0,2025-03-20 08:49:27,5.0
+72,bda97e68-90ae-11ec-aece-002590fd1374,On Approval -(Shums Traders),-,[RTN 2847],,Mr. Huzain,,0.0,0.0,1,2022-02-18 17:04:24,5.0,2025-03-19 10:39:39,5.0
+73,acbe3e11-9302-11ec-aece-002590fd1374,R.A.H  Enterprises,Anuradapura,070-6312230,,Mr.H.M Sunanda,,0.0,0.0,1,2022-02-21 16:10:11,5.0,2024-06-13 08:51:39,5.0
+74,0197c179-96df-11ec-aece-002590fd1374,SLICE Marketing Service,"No'03,Meladumpotha Road, Matale, sri lanka.",0705328232,infoslicemarketing@gmail.com,shan,,0.0,0.0,1,2022-02-26 14:04:47,5.0,2022-02-26 08:40:36,5.0
+75,8980255a-9701-11ec-aece-002590fd1374,Rajapaksha Electricals (PVT) LTD,"No 93, Nissanka Mawatha, Malkanduwewa, Kurunagala",0701787878/ 037-2232,Mr. Amila 071-5304649rajapakashaelectrlcals@gmail.,[RTN Bulb],,0.0,0.0,1,2022-02-26 18:11:57,5.0,2023-08-21 14:13:02,5.0
+76,8fe342b8-977c-11ec-aece-002590fd1374,Trinty Trading Lanka Distributors (PVT) Ltd,"No 192, Messenger Street, Colombo 12",076-349005,trintytrading@sltnet.lk,,,0.0,0.0,0,2022-02-27 08:52:35,5.0,2023-04-05 19:32:01,5.0
+77,faa7b57f-9ac3-11ec-aece-002590fd1374,MD Distributors,"Hiripitiyagama, Kekirawa",071-0810035,,,,0.0,0.0,0,2022-03-03 13:01:15,5.0,2023-04-05 19:23:52,5.0
+78,fc9b1458-a431-11ec-a6a3-002590fd1374,Lht Lotus  Holdings,No 66/23F Broomhil Estate Thihariya,0779028428,,,,0.0,0.0,1,2022-03-15 13:01:44,5.0,2025-02-22 07:34:53,5.0
+79,061434a7-a4fa-11ec-a6a3-002590fd1374,SS Poly Pack,"No.2595, Pirivena Road, Stage III, Anuradapura",070-5354758,,,,0.0,0.0,0,2022-03-16 12:53:37,5.0,2023-03-13 22:41:33,5.0
+80,e567fad8-a741-11ec-a6a3-002590fd1374,Mr Isuru (SILICONE),-,076-8377035,,,,0.0,0.0,1,2022-03-19 10:33:03,5.0,2022-12-09 10:31:10,
+81,7fbe454a-a77f-11ec-a6a3-002590fd1374,Sakura Enterprises-ROBBIALAC,Anuradapura,077-3833389,,0778409431,,0.0,828581.0,1,2022-03-19 17:54:02,5.0,2025-03-23 06:29:02,5.0
+82,53f32631-ac37-11ec-b57e-5254007123c1,Brass Lanka,"Thihariya, Kalagedihena",076-6676633,,,,0.0,0.0,1,2022-03-25 18:00:17,5.0,2023-09-23 12:28:51,
+83,416ade29-ae6e-11ec-b57e-5254007123c1,Saranga Enterprises,"No. 04, ihalawewa, Shrawasthipura",071-2143053,sajithsaranga@gmail.com,,,0.0,0.0,1,2022-03-28 13:38:30,5.0,2025-03-21 06:02:04,
+84,cc437d92-aff0-11ec-b57e-5254007123c1,Madduma Distributors- Anuradapura 2 (IDEA METALS Lt),"No.15, Batukotuwa Junction, Yodaela, Higurakgoda",0779263426/077626677,,,,0.0,0.0,0,2022-03-30 11:45:29,5.0,2023-08-02 21:00:50,5.0
+85,7d9098d5-b3fd-11ec-b57e-5254007123c1,Agra Distributors PVT.Ltd (PE+),"69Mile Post, Korakahawewa, Pandulgama, Anuradapuraya",0252228098,,[RTN],,0.0,74130.7956,1,2022-04-04 15:26:25,5.0,2025-03-20 10:12:15,5.0
+86,9aff40a1-b4ca-11ec-b57e-5254007123c1,Sigify Lanka(PVT),(Formerly Know as Philips Ligting Lanka Privt Limited,0775289738,,,,0.0,0.0,1,2022-04-05 15:54:41,5.0,2022-04-05 10:27:37,
+87,f72d5a43-b4e0-11ec-b57e-5254007123c1,Lankaloha Hardware Limited,LANLO HOUSE YAKKALA.,0332226010,,,,0.0,0.0,1,2022-04-05 18:34:45,5.0,2024-10-10 09:33:55,5.0
+88,54f4dbb3-b738-11ec-b57e-5254007123c1,Polythene- Walk in Supplier,-,0771977984,,,,0.0,0.0,0,2022-04-08 18:05:11,5.0,2023-02-17 16:28:09,5.0
+89,c5a45011-b7ec-11ec-b57e-5254007123c1,KENYON Electronics,"Dambulla Road, NAula",0761379265,,[RTN Bulb/multy]Mr.Indika,,0.0,0.0,1,2022-04-09 15:36:49,5.0,2023-09-28 22:52:36,5.0
+90,098992ae-c518-11ec-b57e-5254007123c1,Sanju Chemical,Gampaha,0704392866,,Mr. Senevirathna,,0.0,2000.0,1,2022-04-26 09:49:17,5.0,2025-03-05 11:09:26,
+91,fd76a87d-ca14-11ec-b57e-5254007123c1,Oniru Enterprises (Mr Dilantha),-,077-2202009,,Mr.Dilantha,,0.0,0.0,0,2022-05-02 18:10:04,5.0,2023-04-05 19:26:36,5.0
+92,474253c8-dbf1-11ec-8fdc-5254007123c1,Normal Bend/ Elbow,-,0713464043,,,,0.0,0.0,1,2022-05-25 11:39:47,5.0,2022-05-25 06:28:12,
+93,cb52c9d0-dbfb-11ec-8fdc-5254007123c1,Hail Solanka Chemical Industries,Gampaha,077-6283523,,,,0.0,0.0,1,2022-05-25 12:55:03,5.0,2024-10-11 10:05:47,
+94,135bf14b-e3ed-11ec-8fdc-5254007123c1,Dammika Lime Powder,Malsiripuara,072-4610776,,,,0.0,0.0,1,2022-06-04 15:29:51,5.0,2025-02-21 07:27:12,
+95,e96546b3-e3f3-11ec-8fdc-5254007123c1,Miris Gal Supplier,Medawachchiya,071-8257305,,Mr.Kumara,,0.0,11940.0,1,2022-06-04 16:18:47,5.0,2025-03-21 12:31:27,5.0
+96,1c74c3bd-e556-11ec-8fdc-5254007123c1,Chanuga Transport Service,"4 Mail Post, Rajanganaya",0777442177,,,,0.0,0.0,0,2022-06-06 10:34:14,5.0,2023-04-05 19:19:44,5.0
+97,54f69886-e58b-11ec-8fdc-5254007123c1,ORION Electrical,Tangalle,071-3309541,,,,0.0,0.0,1,2022-06-06 16:55:13,5.0,2022-08-03 04:48:52,
+98,b625109d-e646-11ec-8fdc-5254007123c1,Pidilite Lanka (Pvt) Ltd - FEVICOL,Anuradapura,077-6673213,,,,0.0,46801.8,1,2022-06-07 15:16:31,5.0,2025-03-04 09:07:28,5.0
+99,59645747-e981-11ec-8fdc-5254007123c1,Crown Distributors- RTN 3088/1563,FIRST CROSS STREET.HINGURAKGODA,0779344050,,[Torch RTN],,0.0,12000.0,1,2022-06-11 17:53:50,5.0,2025-02-15 07:13:07,5.0
+100,041112e1-ed68-11ec-8fdc-5254007123c1,A&S Distributors ( 3713 RETUN ),"No 230, Abayawewa, Anuradapura",0765580061-REF,,[RTN 2853/3709],,0.0,348900.0,1,2022-06-16 17:02:34,5.0,2025-03-14 11:57:29,5.0
+101,2c29ed2d-ee25-11ec-8fdc-5254007123c1,New Star Distributor,"Nittambuwa, Thihariya",077-2929595,,,,0.0,0.0,1,2022-06-17 15:36:36,5.0,2024-06-05 09:50:02,5.0
+102,72f580de-eedc-11ec-8fdc-5254007123c1,Common Supplier,Walk in,-,,,,0.0,-361650.0,1,2022-06-18 13:28:33,5.0,2025-03-22 07:54:57,5.0
+103,81a58af1-f2cc-11ec-8fdc-5254007123c1,ZENOI Electrozen Distributor Pvt.Ltd,Colombo,077-5110097,info@electrozen.lk,,,0.0,0.0,1,2022-06-23 13:44:30,5.0,2023-03-31 07:16:51,
+104,b1a733c1-1558-11ed-8fdc-5254007123c1,Super Electronic (Batapola Antana),"Karavilahena, Naula",071-0818256,,,,0.0,0.0,1,2022-08-06 12:53:40,5.0,2023-06-19 06:38:02,5.0
+105,3969f254-17d4-11ed-8fdc-5254007123c1,Mayuragiri Markerting Service,"45/33, Station Road, Kapuwatta, Ja-Ela",0775467995,,,,0.0,0.0,1,2022-08-09 16:42:58,5.0,2024-07-08 10:13:38,
+106,c2d43eb3-1ae0-11ed-8fdc-5254007123c1,SAMSON International PLC / SAMSON TRADING COMPANY(PVT)LTD,KUMARAN RATHNAM ROAD/COLOMBO 02,0112314291,,,,0.0,0.0,1,2022-08-13 13:50:16,5.0,2024-01-20 07:16:47,5.0
+107,3c61c796-1ebb-11ed-8fdc-5254007123c1,Sadew P.V.C Rubber Indrusties,"Kahatapanawa, Thaligama",0714795268/076072646,,Mr.H.A Susantha,,0.0,0.0,0,2022-08-18 11:31:43,5.0,2023-04-05 19:29:57,5.0
+108,ac96859a-2210-11ed-8fdc-5254007123c1,Luxury Holdings,"Udaya Mawatha, Anuradapura",0767607907,,Mr. R.R Ahamed,,0.0,0.0,1,2022-08-22 17:20:52,5.0,2023-09-14 11:16:30,5.0
+109,066dbb53-25fb-11ed-8fdc-5254007123c1,Gajindu Distributors New Acc RTN BOUTH 4661,"No 270, Old Moor Street, Colombo 12",077 2373939,,REF: 0713208755,,0.0,189840.4,1,2022-08-27 16:55:59,5.0,2025-03-05 06:12:39,5.0
+110,67ed8672-2757-11ed-8fdc-5254007123c1,Kambi/Wire Nail Supplier(Nawaz),Vavuniya,-,,Mr.Nawaz,,0.0,50.0,1,2022-08-29 10:29:47,5.0,2023-03-01 08:38:07,5.0
+111,420f010d-2771-11ed-8fdc-5254007123c1,C&B Spare Parts,Medawachchiya,0252245118,,,,0.0,18700.0,1,2022-08-29 13:34:51,5.0,2025-03-20 06:41:12,5.0
+112,8f085ea9-283e-11ed-8fdc-5254007123c1,SunBright Enterprises,"Siyabalape South, Siyabalape",071-4977662,,,,0.0,0.0,1,2022-08-30 14:04:27,5.0,2022-11-16 12:10:06,5.0
+113,023a9bb0-29c6-11ed-8fdc-5254007123c1,Orange Distributor (Lanka Suppliers ),"Kohomba Sewana,Trincomalee",0769309641,,,,0.0,428219.4,1,2022-09-01 12:46:33,5.0,2025-03-03 10:10:23,
+114,1d78fc43-29d5-11ed-8fdc-5254007123c1,Buddhika Brushes (PVT)LTD,"Panagoda, Homagama",0773469737,,,,0.0,0.0,1,2022-09-01 14:34:41,5.0,2023-04-21 06:53:44,5.0
+115,1b6e5e0e-2e88-11ed-8fdc-5254007123c1,Berlux Paints Pvt. Ltd,"Mabola,Waththla",0112952595,,,,0.0,70674.0,1,2022-09-07 14:06:02,5.0,2025-03-17 06:29:42,5.0
+116,e9676d4f-2ffb-11ed-8fdc-5254007123c1,AGROMAX -Global Resources International (pvt) Ltd.,"2nd Floor, Paramount Tower, 192/10,9th Lane, Nawala Road,Nawala",0113400909,info@agromax.com,,,0.0,0.0,1,2022-09-09 10:27:31,5.0,2023-03-23 04:31:02,5.0
+117,133ed845-3261-11ed-8fdc-5254007123c1,Southern House Enterprises (pvt) Ltd[CEMENTO),"Walpita,Batawala,Padukka",0777168589,,,,0.0,0.0,1,2022-09-12 11:36:43,5.0,2023-06-09 13:08:42,5.0
+118,3d7ac587-3407-11ed-8fdc-5254007123c1,C&R Marketing,"Keselwaththa,Panadura",0770391945,,,,0.0,0.0,1,2022-09-14 13:58:41,5.0,2022-09-14 08:30:06,5.0
+119,54c0037b-34c5-11ed-8fdc-5254007123c1,SMS Distributors,Nochchiyagama,0779416175,,,,0.0,0.0,1,2022-09-15 12:39:25,5.0,2023-02-20 06:55:19,5.0
+120,1aa6bf1f-367d-11ed-8fdc-5254007123c1,AYT Trading,Mahahunupitiya Nigombo,0775131578,,,,0.0,0.0,1,2022-09-17 17:07:26,5.0,2024-09-08 09:08:13,5.0
+121,499dd81e-38b0-11ed-8fdc-5254007123c1,Cash & Carry (Star Ropes Pvt),NO108 Mill Road Vavuniya,0779732023,,,,0.0,0.0,1,2022-09-20 12:18:51,5.0,2023-10-03 07:03:55,5.0
+122,08ddb00a-3a4e-11ed-8fdc-5254007123c1,Universe Lanka Marketing,440/A/3  Rajamal Uyana.Dwvelola Road Udugampola,0770742154,,,,0.0,0.0,1,2022-09-22 13:40:34,5.0,2023-07-30 06:39:46,5.0
+123,077363ef-3a69-11ed-8fdc-5254007123c1,Ever Win Distributor,"No 475/A8,Wibavi Mawatha,Anuradapura",077-3202894,,,,0.0,0.0,0,2022-09-22 16:53:48,5.0,2023-02-17 16:33:05,5.0
+124,26538380-3be0-11ed-8fdc-5254007123c1,Arica Distributers(pvt)Ltd-[PHONEX],No.522/E 20Main Street.Anuradhapura,0761200145,,,,0.0,108758.8,1,2022-09-24 13:39:02,5.0,2025-03-21 08:52:53,5.0
+125,60ab44eb-3eec-11ed-8fdc-5254007123c1,AGRO P.V.C,"Thaligama, Kithulgoda",0721357632,,,,0.0,0.0,1,2022-09-28 10:44:07,5.0,2025-02-08 06:00:47,5.0
+126,4e31eae6-3f0e-11ed-8fdc-5254007123c1,Sunwel Tools &Equipments General Trading (PVT) Ltd,"New Town, Anuradapura",0762909306,,,,0.0,0.0,1,2022-09-28 14:46:59,5.0,2022-10-12 10:05:18,
+127,977a72c1-40a5-11ed-8fdc-5254007123c1,KBG Hardware,Kebithigollawa,0774796943,,,,0.0,0.0,1,2022-09-30 15:22:27,5.0,2023-04-05 19:21:52,5.0
+128,bf73c067-4173-11ed-8fdc-5254007123c1,JRH Distributors,"Boraluhinna Road, Rambewa",0776748654/ 07187907,,Mr:Jameel,,0.0,23850.0,1,2022-10-01 15:58:10,5.0,2025-03-20 08:38:15,5.0
+129,d6768520-4224-11ed-8fdc-5254007123c1,Sun White Enterprises,Kananwila..Horana..,076794129,,,,0.0,0.0,1,2022-10-02 13:05:50,5.0,2024-02-27 11:20:08,
+130,ea93dea3-430a-11ed-8fdc-5254007123c1,Dissanayake Distributor's,Galgamuwa,0762401730,,,,0.0,0.0,1,2022-10-03 16:32:48,5.0,2025-02-26 08:01:03,5.0
+131,9304ee17-430f-11ed-8fdc-5254007123c1,F.S Distributor,70/03..St.Lazara Road.Periyamulla..Negombo,0772647514,,075-2127870,,0.0,0.0,1,2022-10-03 17:06:08,5.0,2024-05-29 05:55:50,5.0
+132,5ab539f9-4a1e-11ed-8ba4-5254007123c1,Altra Tec Cement,-,-,,Mr.Sampath,,0.0,0.0,1,2022-10-12 16:39:34,5.0,2023-11-10 09:03:58,5.0
+133,8f30a6f0-4ba2-11ed-8ba4-5254007123c1,Jayantha Distributor (SWISSTEK)-4 bag sort,No 859/Preeman Mawatha Anuradhapura,0778063725,,4 bag shortMr.Sumeda,,0.0,157744.47,1,2022-10-14 14:58:27,5.0,2025-03-18 12:34:30,5.0
+134,5e6e2d46-503a-11ed-8ba4-5254007123c1,Leomet Steel Engineers (pvt) Ltd,"No:671,IDB Industrial Estate,Pallekele",0770020608,,Mr.Mathivathanan,,0.0,0.0,1,2022-10-20 11:15:14,5.0,2025-01-12 06:38:14,
+135,6427d9e7-5133-11ed-8ba4-5254007123c1,Asian Hand Tools( 1361- r.t.n ),No-22/1/1 Watadeniya Welamboda.,0777780026,,,,0.0,105885.0,1,2022-10-21 16:57:48,5.0,2025-01-15 10:46:39,5.0
+136,fbc0c991-59b1-11ed-8ba4-5254007123c1,NRS Marketing,"Wilpola, Aranayake",0773775629,,,,0.0,0.0,1,2022-11-01 12:24:08,5.0,2023-01-05 06:52:36,
+137,95f25a6d-60c7-11ed-8ba4-5254007123c1,Aqua Bro,Bathamburiya-Rambukkana,0713866026,,,,0.0,0.0,1,2022-11-10 12:46:24,5.0,2023-04-25 11:18:21,
+138,a41dc8f2-625e-11ed-8ba4-5254007123c1,Sasmitha Enterprises 310/10..3rd Step Anuradhapura Dulux,3101/10 3Rd Step..Anuradhapura,0740927993/070499173,,Mr.Asanka,,0.0,95467.0,1,2022-11-12 13:20:13,5.0,2025-03-18 05:48:18,5.0
+139,a4ac3cbb-63fb-11ed-8ba4-5254007123c1,Ceylon Marketing & Ditributor,28. Chandrawaanka Road..Pallimulla..Panadura,0768270833,,,,0.0,241455.3,1,2022-11-14 14:36:36,5.0,2025-03-08 08:17:17,5.0
+140,9862bb91-6ade-11ed-8ba4-5254007123c1,St.Anthony's Coatings (PVT)LTD,Colombo 09,0772930008,,,,0.0,0.0,1,2022-11-23 08:56:19,5.0,2025-03-18 05:17:08,5.0
+141,1ae914bf-6af3-11ed-8ba4-5254007123c1,Universal Paints Industries (PVT) LTD,"Gall Road,Pallilmulla,Panadura",0775675580,,,,0.0,235100.02,1,2022-11-23 11:23:07,5.0,2025-03-08 04:48:38,5.0
+142,819ccad3-6bc3-11ed-8ba4-5254007123c1,Navodya Distributor,"Meetiyagoda,Ambalangoda",0773087970,navodyao@gmail.com,,,0.0,0.0,1,2022-11-24 12:14:55,5.0,2024-10-06 04:36:54,5.0
+143,592c14fd-76d4-11ed-8ba4-5254007123c1,Torch Supplier (Mr. Lalith),-,0741026225,,Mr Lalith,,0.0,0.0,0,2022-12-08 14:13:11,5.0,2023-08-02 21:04:28,5.0
+144,1b3c44dc-7aa8-11ed-8ba4-5254007123c1,Rathnayake Enterprises,Rathmalana,0763304230,,,,0.0,0.0,1,2022-12-13 11:06:34,5.0,2023-03-30 05:46:05,
+145,b697c1c8-7ab9-11ed-8ba4-5254007123c1,Maxlong Steel (PVT) LTD,"Samagi Mawatha, Panadura",0703387726,,,,0.0,0.0,1,2022-12-13 13:12:36,5.0,2023-03-05 06:43:56,
+146,3067e7a3-7dbd-11ed-8ba4-5254007123c1,UNICHEM Chemicals,"No:120, Meeriyagall,Padukka",0778088195,,,,0.0,0.0,1,2022-12-17 09:15:03,5.0,2024-10-11 07:48:41,
+147,f9d06625-7dd9-11ed-8ba4-5254007123c1,Tokiyo Cement,-,-,,,,0.0,964500.0,1,2022-12-17 12:41:07,5.0,2025-03-20 12:53:08,
+148,ddd6149b-7df5-11ed-8ba4-5254007123c1,Agra Distributor(SLON),"Pandulagama,Anuradapura",0761104611/071942505,,"Mr Bandara,Mr Gayan",,0.0,349780.70908,1,2022-12-17 16:00:46,5.0,2025-03-14 08:29:27,5.0
+149,6bdf7af2-803a-11ed-8ba4-5254007123c1,Listec Holdings,"No:14/6,Bemmulla,Gampaha",0740747462,,,,0.0,0.0,1,2022-12-20 13:16:32,5.0,2025-03-12 06:21:54,
+150,aa9d7dcb-805b-11ed-8ba4-5254007123c1,Kohu Lanu Supplier,-,0776445584,,,,0.0,0.0,1,2022-12-20 17:14:31,5.0,2022-12-20 11:45:05,
+151,c5b726b0-8bf0-11ed-8ba4-5254007123c1,TM Distributors,"No 315/71,Ranathisara Garden,Jalthara,Ranala",037-2057732,,,,0.0,0.0,1,2023-01-04 10:59:34,5.0,2025-01-20 10:46:03,5.0
+152,c64dcde8-8c24-11ed-8ba4-5254007123c1,ILA Glass House,Kattankudy,075-7333636,,,,0.0,0.0,1,2023-01-04 17:11:49,5.0,2023-01-04 11:42:32,
+153,ec42b64f-9253-11ed-8ba4-5254007123c1,SUNRO Engineers,"No 130,Mahara,Kadawatha",0777985159,,,,0.0,0.0,1,2023-01-12 14:04:26,5.0,2023-01-12 08:35:53,
+154,788c4265-92f9-11ed-8ba4-5254007123c1,Dakshina Lanka Agro Holding(PVT) Ltd,Middeniya,0711433808,,,,0.0,0.0,1,2023-01-13 09:49:28,5.0,2023-01-13 04:22:23,5.0
+155,89ff31fc-97e3-11ed-8ba4-5254007123c1,Asma Enterprises-Rotax (pvt)Ltd,"No 99/Matale Road,Kudugala,
+Ambathanna",0773425041,,,,0.0,28177.272,1,2023-01-19 15:55:04,5.0,2025-03-10 04:54:19,5.0
+156,dbaa2cfc-987a-11ed-8ba4-5254007123c1,Lion X Markting (COLORMAX),Bogahawaththa..Kiridiwela,0332268887,,,,0.0,0.0,1,2023-01-20 09:58:15,5.0,2023-02-16 06:22:32,5.0
+157,da9afcd2-9aef-11ed-8ba4-5254007123c1,GI Traders,Viharapalamugama-Anuradhapura,0762738169/076290586,,,,0.0,0.0,1,2023-01-23 13:00:47,5.0,2023-05-24 07:56:11,5.0
+158,9df75d13-9d4a-11ed-8750-5254007123c1,Mihini Enterprises (EMPRO PVC),Anuradapura,0771004413,,,,0.0,0.0,1,2023-01-26 12:55:32,5.0,2025-02-13 09:53:19,5.0
+159,afc1204a-9df4-11ed-8750-5254007123c1,SUSE Electrical-POLYCROME,"No94,temple Road,Vavuniya",0770637037,,,,0.0,0.0,1,2023-01-27 09:12:56,5.0,2023-02-13 06:02:07,
+160,44709fdf-a052-11ed-8750-5254007123c1,MRS Distributor,"No 123,Katugastota",0773757972,,[pop Rivert Gun RTN 1052],,0.0,131565.612,1,2023-01-30 09:27:51,5.0,2025-03-22 07:56:16,5.0
+161,557f64be-a2e9-11ed-8750-5254007123c1,ODMI International (PVT)LTD,Kadawatha,0769951394,,,,0.0,15965.1,1,2023-02-02 16:34:16,5.0,2025-03-20 10:06:45,
+162,72b70023-a374-11ed-8750-5254007123c1,Mr. Suranga (C&B Hardware),C&B Hardware,0778721374,,,,0.0,0.0,1,2023-02-03 09:10:05,5.0,2023-05-31 08:26:26,5.0
+163,37d9c517-a776-11ed-8750-5254007123c1,Samudra Cement(GANGA Hardware),-,-,,,,0.0,455700.105,1,2023-02-08 11:32:50,5.0,2025-03-15 04:06:36,5.0
+164,91bb4a5c-ad0e-11ed-b23b-5254007123c1,Super Look Marketing,"Koombiyangoda,Matale",0772370736,,,,0.0,0.0,1,2023-02-15 14:26:00,5.0,2023-05-31 07:32:40,
+165,8160e6da-b19f-11ed-b23b-5254007123c1,New Nadeesha Enterprise,Gampola,0772999050,,0771596959,,0.0,0.0,0,2023-02-21 09:53:34,5.0,2023-08-02 21:02:12,5.0
+166,35a40897-b424-11ed-b23b-5254007123c1,Jayamewan Construction & Supplier,Anuradapura,0762586396,,,,0.0,0.0,1,2023-02-24 14:48:33,5.0,2023-02-24 09:19:30,
+167,da6208a9-b504-11ed-b23b-5254007123c1,Rathna Hardware,-,-,,,,0.0,0.0,1,2023-02-25 17:36:36,5.0,2023-02-25 12:39:32,
+168,fe1e2f1a-b5a4-11ed-b23b-5254007123c1,Upali Budget Brushes,Colombo,0777649071,,,,0.0,0.0,1,2023-02-26 12:42:56,5.0,2023-02-26 07:15:46,
+169,2a666bc9-b682-11ed-b23b-5254007123c1,Sanka Sri Brush Industries,gampaha,0761740766,,,,0.0,0.0,1,2023-02-27 15:06:09,5.0,2023-06-08 10:36:59,
+170,e1fed1eb-c232-11ed-b23b-5254007123c1,Chanu Furniture,Rideegama,0725328637,,,,0.0,0.0,1,2023-03-14 12:08:51,5.0,2023-03-14 06:39:23,
+171,9ecd701c-cba8-11ed-b23b-5254007123c1,SR Marketing & Hardware,Anuradapura,0779126134,,,,0.0,30310.0,1,2023-03-26 13:04:19,5.0,2025-03-21 07:54:35,
+172,39f2ea9b-cc75-11ed-b23b-5254007123c1,R.I.T (PVT) LTD,Colombo 9,0777886966,,,,0.0,6075.0,1,2023-03-27 13:28:57,5.0,2025-02-14 08:44:51,5.0
+173,901310fe-d1f4-11ed-b23b-5254007123c1,KAT Agencies (PVT) LTD,Keselwaththa,0114330445,,,,0.0,0.0,1,2023-04-03 13:23:03,5.0,2025-02-14 06:46:17,5.0
+174,9b0f8d8a-d454-11ed-b23b-5254007123c1,FR Marketing (pvt) Ltd,Panadura,0382299866,,,,0.0,0.0,1,2023-04-06 13:55:36,5.0,2024-11-18 06:54:28,5.0
+175,c62406be-d517-11ed-b23b-5254007123c1,JISCO Lanka Marketing,"Mirigama Road,Negombo",0755988898,,,,0.0,27417.78,1,2023-04-07 13:12:40,5.0,2025-01-25 12:38:59,
+176,496ece21-e412-11ed-b23b-5254007123c1,Martin Electricals,Colombo 11,-,martinetc.lk@gmail.com,-,,0.0,50.190999999999,1,2023-04-26 14:41:11,5.0,2023-07-10 07:44:46,5.0
+177,496f3308-e412-11ed-b23b-5254007123c1,Wickrama Holding,"Walpola Road,Aggona,Mulleriyawa",0768292537,,0773214482,,0.0,0.0,1,2023-04-26 14:41:11,5.0,2023-12-29 06:41:34,5.0
+178,497068ff-e412-11ed-b23b-5254007123c1,Keshara Lime Industries(PVT)LTD,"Malpana,Kengalla,Kandy",0812375700,,0812376961,,0.0,60000.0,1,2023-04-26 14:41:11,5.0,2025-03-11 09:06:04,
+179,4970a05b-e412-11ed-b23b-5254007123c1,Suki Multi Center(Sunanda Aiya),"Jaffna Road,Medawachchiya",0714084515/072850142,,-,,0.0,0.0,1,2023-04-26 14:41:11,5.0,2025-03-16 05:02:14,5.0
+180,49bc151c-e412-11ed-b23b-5254007123c1,NBK Enterprises,"Adikaragoda,Kaluthara",0712023281,,Mr.Sumeda,,0.0,0.0,1,2023-04-26 14:41:11,5.0,2024-12-19 12:58:11,5.0
+181,9ed71d9d-f3b8-11ed-af30-5254007123c1,Lakwa Agriculture Company (Pvt) Ltd,"No 77/3/1, Kiribathgoda RD, Mabima, Heiyanthuduwa",0112082044/011240102,lakwaagro3@gmail.com,,,0.0,0.0,1,2023-05-16 12:39:38,5.0,2024-12-11 13:01:09,
+182,2a4c493a-fdf5-11ed-af30-5254007123c1,TD Distributors-return 2082/3714,"No,425,Gaham Mawatha,Anuradapura",0771336509,,,,0.0,0.0,1,2023-05-29 13:18:13,5.0,2024-07-25 11:08:45,5.0
+183,8f86826f-04fe-11ee-af30-5254007123c1,Shinmax Agro (PVT) LTD,"Bandaragama,Kesbawa",0779717298,,,,0.0,0.0,1,2023-06-07 12:13:07,5.0,2023-09-27 05:29:46,
+184,63eef5fd-05ce-11ee-af30-5254007123c1,Chath Lanka (PVT) LTD [MULTIBONE],Gampaha,2-761888,,,,0.0,175561.8924,1,2023-06-08 13:00:49,5.0,2025-03-22 12:27:39,5.0
+185,ff9a3db9-0694-11ee-af30-5254007123c1,Merine Cement,-,-,,,,0.0,0.0,1,2023-06-09 12:42:30,5.0,2023-07-15 09:44:04,
+186,b4f8e6fd-0a8a-11ee-af30-5254007123c1,NS Door,"Nayawala,Mawanella",0777527941,,,,0.0,0.0,1,2023-06-14 13:38:55,5.0,2025-01-03 06:40:19,
+187,24785154-0c43-11ee-af30-5254007123c1,Sunrise Industrises,Padukka,0741080293,,,,0.0,0.0,1,2023-06-16 18:11:40,5.0,2024-07-16 09:14:32,
+188,82e06329-0f2a-11ee-af30-5254007123c1,SBS Best Quality Product,Thambuththegama,0765344775,,,,0.0,0.0,1,2023-06-20 10:52:55,5.0,2025-01-06 06:38:27,
+189,2abd1752-1257-11ee-9a6d-5254007123c1,A.M Marketing,Colombo,0756116853,,,,0.0,0.0,1,2023-06-24 11:50:08,5.0,2023-06-24 06:20:44,
+190,7fc7aa57-1596-11ee-9a6d-5254007123c1,AML Holding,"No 1302,Palaiyoothu,Trincomalee",0767328244,,,,0.0,0.0,1,2023-06-28 15:01:02,5.0,2025-03-15 06:17:42,
+191,09a9764c-163d-11ee-9a6d-5254007123c1,Lanva Cement-LS Constructions,"Kandy Road,Medawachchiya",-,,0743100772,,0.0,519000.0,1,2023-06-29 10:53:10,5.0,2025-03-19 09:28:50,5.0
+192,4c59941d-1b04-11ee-9a6d-5254007123c1,Yohan Tiles,No-84 Kalupana-Pokunuwita,0342264300,,,,0.0,0.0,1,2023-07-05 12:49:36,5.0,2023-07-05 07:20:38,
+193,b12cc064-1cb1-11ee-9a6d-5254007123c1,Sunco Electric Distributors (PVT) Ltd,Padukka,0719401311,,,,0.0,0.0,1,2023-07-07 16:03:20,5.0,2023-07-07 10:41:27,
+194,ecfb566c-1f13-11ee-9a6d-5254007123c1,A-One Distributor,"Raigama,Bandaragama",0764148706,,,,0.0,0.0,1,2023-07-10 16:51:33,5.0,2023-07-10 11:27:40,
+195,5dcfbc80-1fe6-11ee-9a6d-5254007123c1,Pihi/Kathi Supplier,-,0772942603,,,,0.0,0.0,1,2023-07-11 17:57:57,5.0,2023-11-22 09:18:35,
+196,a96e0313-22c4-11ee-9a6d-5254007123c1,SND Distributor Batary aspray 2 Rtn,-,-,,,,0.0,3.6379788070917e-12,1,2023-07-15 09:34:14,5.0,2025-01-15 12:40:35,5.0
+197,df016c6f-261e-11ee-9a6d-5254007123c1,Dissanayake Trading (PVT) LTD r.t.n tap (571),Katupotha,0778295143,,,,0.0,49641.0312,1,2023-07-19 15:57:32,5.0,2025-03-05 07:52:51,5.0
+198,6ac10ba1-27ac-11ee-9a6d-5254007123c1,Fumax Marketing,"No.88,Kiringadeniya,Mawanella",0771232729,,,,0.0,0.0,1,2023-07-21 15:23:17,5.0,2025-02-08 07:27:33,5.0
+199,495184a9-32a2-11ee-9a6d-5254007123c1,Orange PVC,Rambewa,-,,,,0.0,3.6379788070917e-12,1,2023-08-04 14:08:29,5.0,2024-08-14 08:41:05,5.0
+200,3ef88bd8-38cf-11ee-9a6d-5254007123c1,Noise Engineering,"Kotikawaththa,Angoda",0772293432,,,,0.0,0.0,1,2023-08-12 10:45:26,5.0,2025-01-23 06:42:37,
+201,7783924e-3a70-11ee-9a6d-5254007123c1,Gold City Polypack,Thambuththegama,0766699115,,,,0.0,0.0,1,2023-08-14 12:32:01,5.0,2024-07-21 09:43:45,
+202,925edd0c-4248-11ee-9a6d-5254007123c1,Sethum Distributors,Anuradapura,0761406898,,,,0.0,0.0,1,2023-08-24 12:06:35,5.0,2024-11-01 07:48:36,
+203,8957f97a-4644-11ee-9a6d-5254007123c1,Yapa H/W,Piliyandala,0773642051,,,,0.0,-3.25,1,2023-08-29 13:47:47,5.0,2024-09-28 06:44:24,
+204,e5f86e06-4aeb-11ee-ac5a-5254007123c1,Central Industries Plc-Chola Engineering (Pvt)-Nationalpvc,"Nawala Road,Rajagiriya",-,,,,0.0,49460.0,1,2023-09-04 11:55:53,5.0,2025-02-25 05:44:09,5.0
+205,026cd7ee-4ba5-11ee-ac5a-5254007123c1,Transglobal Investment Com (Pvt) Ltd,"Mulgampola,Kandy",0112674056,,,,0.0,0.0,1,2023-09-05 10:00:57,5.0,2024-08-28 07:22:35,
+206,1ed58dd2-4e3c-11ee-ac5a-5254007123c1,W.Wireman Electric (ORANGE),Rambewa,-,,,,0.0,0.0,1,2023-09-08 17:07:41,5.0,2024-07-29 09:34:16,5.0
+207,29f406cb-547f-11ee-ac5a-5254007123c1,Ultra Cement,-,-,,,,0.0,270000.0,1,2023-09-16 16:22:43,5.0,2025-03-22 09:10:18,5.0
+208,e1e0f779-560c-11ee-ac5a-5254007123c1,Super White Lanka(pvt)Ltd,Diullewa,0710500705,,,,0.0,0.0,1,2023-09-18 15:49:42,5.0,2025-03-04 12:28:22,
+209,197057b7-5f7e-11ee-ac5a-5254007123c1,Metro Lanka Hardware,Medawachchiya,-,,,,0.0,0.0,1,2023-09-30 16:12:49,5.0,2024-09-15 07:32:24,
+210,2858a408-6013-11ee-ac5a-5254007123c1,Royal Timber Depot,Medawachchiya,0255622666,,,,0.0,0.0,1,2023-10-01 09:59:49,5.0,2024-12-13 10:35:59,
+211,20b7c9e5-6356-11ee-ac5a-5254007123c1,Lanka Traders,Medawachchiya,0775112370,,,,0.0,0.0,1,2023-10-05 13:36:46,5.0,2024-10-12 13:06:59,
+212,1f60b073-68d5-11ee-ac5a-5254007123c1,Ali Brothers PVT.Ltd,Colombo,0112330208,,,,0.0,90000.0,1,2023-10-12 13:28:25,5.0,2025-01-28 10:47:34,
+213,847d7fa5-6b2f-11ee-ac5a-5254007123c1,DB VENTURES(PVT)LTD / DBL Elect Blower Rtn Dunna,116.-New Thangalle Road Kotuwegoda Mathara,0112323755,,,,0.0,428302.523,1,2023-10-15 13:20:32,5.0,2025-03-15 13:17:14,5.0
+214,16585c4d-6da3-11ee-ac5a-5254007123c1,Rajapaksha Poly Pack,Ihala Embulgoda Galgamuwa,0765727441,,,,0.0,0.0,1,2023-10-18 16:12:51,5.0,2025-03-02 04:21:34,5.0
+215,ec7e090d-762d-11ee-b2c7-5254007123c1,SLMT Marketing( retun 099),No 569/84 Bandaranayake Place Thihariya,0779700129,,,,0.0,0.0,1,2023-10-29 13:06:50,5.0,2024-01-25 08:02:29,5.0
+216,657fd0a4-7c66-11ee-b2c7-5254007123c1,King Steel,"No 98, Galwala Junction, Saliyapura,Anuradhapura",0712791624/076850849,,,,0.0,0.0,1,2023-11-06 11:06:12,5.0,2024-07-10 05:11:31,
+217,1c2e0bdd-85ea-11ee-b2c7-5254007123c1,Anuradha Agencies (Pvt) Ltd,"Office & Sale Center 181, Negombo Road, Peliyagoda","4622526, 2931145",,,,0.0,80000.0,1,2023-11-18 13:41:43,5.0,2025-03-19 08:33:59,
+218,09f0d875-9425-11ee-b2c7-5254007123c1,Wasana Trading,No-116 Elapitiwela Road-Ragama,0777685364,,,,0.0,0.0,1,2023-12-06 16:18:49,5.0,2023-12-06 11:15:10,
+219,3acb9a4c-9e67-11ee-b2c7-5254007123c1,Global Marketing,"Thekkawatta Road, Thennekumbura, Kandy",0775320906,,,,0.0,224415.0,1,2023-12-19 17:37:50,5.0,2025-03-15 09:04:56,
+220,f9c6d5c9-aa23-11ee-b2c7-5254007123c1,Dash,"N.D.Gunathilaka 02, Anuradhapura",0342260785,,,,0.0,0.0,0,2024-01-03 16:06:38,5.0,2024-01-03 22:07:51,5.0
+221,4c38623a-ae0f-11ee-b2c7-5254007123c1,SS Electricals,"No. 35, Kahapola RD, Madapatha, Piliyandala",0778721374,,,,0.0,0.0,1,2024-01-08 15:48:42,5.0,2024-01-29 11:11:01,
+222,3642d278-b1fc-11ee-b2c7-5254007123c1,H.Z.Z Marketing,a,0766868644,,,,0.0,0.0,1,2024-01-13 15:42:09,5.0,2025-01-31 07:01:02,
+223,f0a98196-b786-11ee-b2c7-5254007123c1,Agra Distributor(Kansai)-(3720-Water pump),Anuradhapura,0740458825,,,,0.0,57391.536,1,2024-01-20 16:57:48,5.0,2025-01-16 10:28:15,
+224,67cb3d62-c266-11ee-b2c7-5254007123c1,BOC Tool lanka,"no; 130, vivekananda hill, colombo -13",0773333119/011232735,,0777296239,,0.0,87527.3298,1,2024-02-03 13:02:37,5.0,2025-01-30 10:38:15,
+225,90ac6713-c747-11ee-b2c7-5254007123c1,Orient hardware,Anuradhapura,0252235252/025205527,,,,0.0,0.0,1,2024-02-09 18:04:27,5.0,2025-03-20 08:17:00,
+226,90acea5c-c747-11ee-b2c7-5254007123c1,Orient hardware,Anuradhapura,0252235252/025205527,,,,0.0,0.0,0,2024-02-09 18:04:27,5.0,2024-02-10 00:04:53,5.0
+227,86edb01e-d45b-11ee-b2c7-5254007123c1,Shenu Distributors,Putththalam Road Mahabulankulama apura,0701101117,,,,0.0,75500.0,1,2024-02-26 09:30:06,5.0,2025-03-21 09:20:19,
+228,df10ae25-d631-11ee-b2c7-5254007123c1,Polydime International (PVT),122..Stratford Avanue..Colombo-06,0764731458,,,,0.0,0.0,1,2024-02-28 17:36:57,5.0,2024-02-28 12:13:36,
+229,84db74a7-db9d-11ee-b2c7-5254007123c1,K.H.M Enterprises,Main street Matale,0662230560,,,,0.0,115750.0,1,2024-03-06 15:10:08,5.0,2025-03-06 12:10:27,5.0
+230,b2d5b519-e1dd-11ee-be33-e67b749ae16a,C.W.Mackie PLC,D.RWijewardana Mawatha.Colombo 10,0112423554,,,,0.0,60000.64,1,2024-03-14 14:04:39,5.0,2024-10-16 11:57:50,
+231,94fc90ad-e2bb-11ee-be33-e67b749ae16a,JS Electrical & Hardware,"no: 29/1 , kekunagahakubura. nahinewela,Kandy.",0776743593/ 07605148,,,,0.0,0.0,1,2024-03-15 16:32:58,5.0,2024-10-03 11:45:48,
+232,b163c125-f02b-11ee-be33-e67b749ae16a,New NS Enterprises,No 115/1..Kandy Road..Weligala,0761410116,,,,0.0,209150.0,1,2024-04-01 18:58:14,5.0,2025-03-17 07:13:33,
+233,4aa855b8-f0ba-11ee-be33-e67b749ae16a,MA Enterprises,No 130/Viwekananda Hill/Colombo 13,0714388536,,,,0.0,56997.0000008,1,2024-04-02 11:59:00,5.0,2025-03-17 08:39:16,
+234,0444658a-f0c4-11ee-be33-e67b749ae16a,SR Cables,Sangamiththa mw Colombo,0112341584,,,,0.0,40462.0,1,2024-04-02 13:08:37,5.0,2025-03-22 12:00:16,
+235,b2a2d95c-06df-11ef-be33-e67b749ae16a,Sanstha PVC,000,00,,,,0.0,0.0,1,2024-04-30 16:22:11,5.0,2025-01-10 11:08:28,
+236,5d1d425c-0abb-11ef-be33-e67b749ae16a,Royal Marketing,"No.616, New Town, Nachchaduwa, Anuradhapura",0763141012,,,,0.0,14375.0,1,2024-05-05 14:12:10,5.0,2024-12-27 10:19:45,
+237,1ed79f5f-312a-11ef-b06f-e67b749ae16a,S&B distributors,"111, mount paradies ,gurudeniya",0776159885,,,,0.0,0.0,1,2024-06-23 12:00:44,5.0,2025-03-14 09:33:14,
+238,be511b5d-3875-11ef-b06f-e67b749ae16a,TOTO Lanka,No 47 Maga Road Thisawewa Apura,0717007767,,,,0.0,0.0,1,2024-07-02 18:49:42,5.0,2024-07-23 08:42:48,
+239,c3f5a7eb-3e8d-11ef-b06f-e67b749ae16a,Meshmart Pvt Ltd,Rathkarawwa Maspotha Kurunegala,0372239644,,,,0.0,0.39900000000489,1,2024-07-10 12:56:47,5.0,2025-03-18 05:01:03,
+240,2dc6ddc7-44ff-11ef-b06f-e67b749ae16a,Goal Lanka Marketing,Moragahapitiya Estate Balagolla Kandy,0812375383,,,,0.0,0.0,1,2024-07-18 17:43:44,5.0,2025-01-28 06:33:34,
+241,d1269c62-4506-11ef-b06f-e67b749ae16a,Max Trading,Muslim Colany Parasangaswewa Apura,0763558096,,,,0.0,0.0,1,2024-07-18 18:38:25,5.0,2024-10-24 09:54:10,
+242,fa700e18-4736-11ef-b06f-e67b749ae16a,RAVI clean green,"252/A  kuruduwaththa road ekala, ja -ela",0112226711,,,,0.0,0.0,1,2024-07-21 13:28:12,5.0,2024-09-02 08:04:49,
+243,5a5fcbf0-4808-11ef-b06f-e67b749ae16a,Tokiyo Vauniya,"Omanthe
+Vuniya",077264514,,Gamini,,0.0,0.0,1,2024-07-22 14:26:58,5.0,2024-09-14 07:52:43,
+244,12e61057-48a9-11ef-b06f-e67b749ae16a,Mahajana HW,Anuradhapura,0252223901,,,,0.0,0.0,1,2024-07-23 09:37:27,5.0,2024-10-18 12:05:26,
+245,8599f702-5966-11ef-b06f-e67b749ae16a,Bestech Machinnes & Tools (PVT)LTD,Sri Sangaraja Mawatha Colombo,0112437392,,SUMITH,,0.0,80500.0,1,2024-08-13 16:53:53,5.0,2025-02-06 10:08:47,5.0
+246,933079b1-5a3f-11ef-b06f-e67b749ae16a,Raino Sand Peper Suplyr,Puliyankulama,0766537514,,,,0.0,0.0,1,2024-08-14 18:47:37,5.0,2024-10-02 13:08:40,
+247,be649aea-6857-11ef-b06f-e67b749ae16a,Wurth Lanka Pvt Ltd,Higlewel Road Makubura,0112894955,,,,0.0,57447.77,1,2024-09-01 17:15:53,5.0,2025-03-01 07:05:54,
+248,182c9c53-6cd5-11ef-b06f-e67b749ae16a,New Western Traders(PVT)Ltd,23/2A  Athapaththu Mawatha Dehiwala,0773778872,,,,0.0,0.0,1,2024-09-07 10:23:16,5.0,2025-01-20 07:36:21,
+249,9fcdbbce-70c9-11ef-b06f-e67b749ae16a,Marketing & Hardware,562 /M/1 Anuradhapura,0779126134,,,,0.0,0.0,1,2024-09-12 11:11:14,5.0,2024-09-26 08:26:35,
+250,390db80d-71c1-11ef-b06f-e67b749ae16a,R.A.H Enterprises,No033.Ayesha Waththa yakalla ibbagamuwa,07115312213,,,,0.0,0.0,1,2024-09-13 16:43:37,5.0,2025-02-27 08:50:32,
+251,a7c31f4f-7cb7-11ef-b06f-e67b749ae16a,Multi Steel Company,05 Abdul Jabbar Mawatha colombo,0114325556,,,,0.0,386000.0,1,2024-09-27 15:32:50,5.0,2025-03-19 06:08:03,
+252,6feeb8e7-7fd0-11ef-b06f-e67b749ae16a,Puwakaramba Enterprises,No 5 Moratumulla South Moratuwa,0777693546,,,,0.0,0.0,1,2024-10-01 14:07:47,5.0,2024-10-01 08:50:31,
+253,d733990f-8ae4-11ef-b06f-e67b749ae16a,Central H/W Apura,New Bus Stand Apura,00,,,,0.0,0.0,1,2024-10-15 16:31:33,5.0,2024-10-15 11:06:32,
+254,2593f391-96bb-11ef-b06f-e67b749ae16a,Bright City,"mannar rod ,paddanichoor,vavniya",0761129398,,,,0.0,0.0,1,2024-10-30 18:03:20,5.0,2024-10-30 12:40:35,
+255,dafd2c89-a19e-11ef-b06f-e67b749ae16a,Trust Marketing & Holding PVT LTD,No 96/3 Thinne Gedara Mawathupola Alawathugoda Kandy,0774191954,,,,0.0,168095.0,1,2024-11-13 14:38:32,5.0,2025-03-17 09:01:00,
+256,821a1417-a7e3-11ef-b06f-e67b749ae16a,Wajitha Construction,Polonnaruwa North Central,0778991673,,,,0.0,1.0913936421275e-11,1,2024-11-21 14:05:05,5.0,2025-02-05 08:52:39,
+257,7c8dd018-aa1f-11ef-b06f-e67b749ae16a,Brown & Company PLC,"No.481 ,T.B.Jaya Mawatha ,Colombo 10,",2663000,,,,0.0,35184.0,1,2024-11-24 10:19:28,5.0,2025-02-28 09:30:13,
+258,45a374ca-ad83-11ef-b06f-e67b749ae16a,MPT Power Tools,No 420/01. Kehelwala Kiribathkubura,0743937847,,,,0.0,89600.0,1,2024-11-28 17:51:19,5.0,2025-02-03 07:17:16,
+259,f6754cee-babb-11ef-893d-e67b749ae16a,M.H.M Import,No 262 Kottawatta Mawanella,0773682678,,,,0.0,36727.0,1,2024-12-15 13:39:52,5.0,2025-03-24 03:52:56,
+260,de58e1d9-bdc2-11ef-893d-e67b749ae16a,S.V.Disributors,119/2 Messenger Street Colombo 12,0767442514,,,,0.0,0.0,1,2024-12-19 10:06:52,5.0,2025-03-10 11:52:31,
+261,8d47c990-be9f-11ef-893d-e67b749ae16a,NEW Bright City,"Mannar Road, Paddanichoor, Vavuniya",0702397827 / 0761129,,Abdul Rahman,,0.0,0.0,1,2024-12-20 12:26:35,5.0,2024-12-20 06:57:31,
+262,f258b2e7-c037-11ef-893d-e67b749ae16a,K.M.C Trading,"NO; 57/8 Gimpatha, mawatha.",0107,,,,0.0,0.0,1,2024-12-22 13:09:59,5.0,2025-01-20 05:23:59,
+263,06df4f40-c43b-11ef-893d-e67b749ae16a,lolugaswewa gamini aiya,Lolugaswewa,0766259610,,,,0.0,0.0,1,2024-12-27 15:42:06,5.0,2024-12-30 07:17:14,
+264,35b56610-c994-11ef-893d-e67b749ae16a,Green Electric,"No , 413, Havelock Road, Colombo 6, Sri lanka.",0773900190,,,,0.0,51900.0,1,2025-01-03 11:03:06,5.0,2025-02-28 07:36:11,
+265,bb129200-de2e-11ef-893d-e67b749ae16a,Asian Paints -Causeway Paints Lanka (pvt) Ltd,"15, Noel Mendis Mw, Moderawila ,panadura .",038-2240040-5,,,,0.0,0.0,1,2025-01-29 16:19:36,5.0,2025-03-05 12:33:10,
+266,de7c43e4-f1b5-11ef-893d-e67b749ae16a,K.B.G Hardware,KBG,0771596892,,,,0.0,0.0,1,2025-02-23 12:44:49,5.0,2025-03-12 11:40:36,5.0
+267,a597080e-f428-11ef-893d-e67b749ae16a,RDA Medawachchiya,Medawachchiya,0714803364,,,,0.0,0.0,1,2025-02-26 15:31:28,5.0,2025-02-26 10:01:28,
+268,8f4db5bd-ff15-11ef-893d-e67b749ae16a,DN TRADING,"Anuradhapura Road , Mihinthale",0772433902,nuwanrajapaksha2021@gmail.com,sampath,,0.0,0.0,1,2025-03-12 13:12:33,5.0,2025-03-15 08:16:23,
+269,837f10f3-0710-11f0-893d-e67b749ae16a,Mr. Brush,"Uduwaka  road , Athnawala , Warakapola .",077 6207219,sales@mrbrush.lk,077 9119065,,0.0,0.0,1,2025-03-22 16:56:35,5.0,2025-03-22 11:30:05,

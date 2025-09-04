@@ -1,0 +1,4 @@
+payment_status_id,name
+1,Not Paid
+2,Partially Paid
+3,Paid

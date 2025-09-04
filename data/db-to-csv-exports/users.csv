@@ -1,0 +1,5 @@
+id,user_ref,role_id,full_name,name,email,email_verified_at,password,status,remember_token,created_at,updated_at
+4,3e95e40f-0061-11eb-873d-00e18c9a6c8e,1,Admin,admin@gmail.com,admin@gmail.com,2020-09-27 04:33:51,$2y$10$NtOnUXvaFhKoJZwXPhsw8uWXvCYSYbXkmSznrEJiXyvR6FL4hIOz2,1,$10$mXgK0aJ9IeVvTs24QZnMV.8IoLZTmRYCepmx75SHq1XwFdsj6jo4y,2021-01-06 23:58:24,
+5,9eb34973-4f52-11eb-9b91-00e18c9a6c8e,2,Data Entry,user@gmail.com,user@gmail.com,,$2y$10$N4uZMG8fFQSl6YCsID1B8uRpX63yt5NfTHMT.9lSO4CpiVIGUALb.,1,,2021-01-06 06:36:22,
+6,b21e4059-4f52-11eb-9b91-00e18c9a6c8e,3,Cashier,cashier@gmail.com,cashier@gmail.com,,$2y$10$6pdTjsPYaSo5IwG17SEeK./.eNUSYeS9oKz2BqlSK3se7OIgZEas.,1,,2021-01-06 06:36:55,
+7,178ce7e2-54a3-11eb-998e-1866daeb4730,1,Rajith,rajith,malindarajith@gmail.com,,$2y$10$6pdTjsPYaSo5IwG17SEeK./.eNUSYeS9oKz2BqlSK3se7OIgZEas.,1,,,
